@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper-container{
+    width: 70%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1{
+    width: 30%;
+    height: 100;
+    padding-top: 20px;
+}
+#tasks{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+#lists{
+    font-size: 3.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.upper-container2{
+    width: 30%;
+    height: 100;
+    padding-top: 25px;
+    position: absolute;
+    top: 10px;
+    left:880px;
+}
+#addlist{
+    position: absolute;
+    width: 70%;
+    height: 100;
+    top: 5px;
+    left: 50px;
+    font-size: 2rem;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+.card1{
+    margin-top: 50px;
+    border: 1.5px solid rgb(247, 45, 45);
+    height: 50vh;
+    width: 20%;
+    position: absolute;
+    bottom: 150px;
+    left: 220px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px grey;
+}
+    
+  .div1{
+      position:absolute;
+      top:15px;
+      right: 0;
+      font-size: 30px;
+      width: 85%;
+      text-align: left;
+      height: 15%;
+      color: rgb(239, 16, 39);
+      border-bottom: 1px solid black;
+}
+  .div2{
+      width: 90%;
+      height: 10%;
+      font-size: 23px;
+      color: rgb(239, 16, 39); 
+      text-align: right;
+      position: absolute;
+      top: 35%;
+      font-weight: bold;
+      text-decoration: line-through;
+}
+  .div3{
+      width: 90%;
+      height: 10%;
+      position: absolute;
+      top: 52%;
+      text-align: left;
+      font-size: 25px;
+}
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;    
+}
+.card2{
+    margin-top: 50px;
+    border: 1.5px solid rgb(247, 45, 45);
+    height: 50vh;
+    width: 20%;
+    position: absolute;
+    bottom: 150px;
+    left: 250px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px grey; 
+    margin-left: 370px;
+    
+}
+.div4{
+      position:absolute;
+      top:15px;
+      right: 0;
+      font-size: 30px;
+      width: 85%;
+      text-align: left;
+      height: 15%;
+      color: rgb(239, 16, 39);
+      border-bottom: 1px solid black;
+}
+  .div5{
+      width: 90%;
+      height: 10%;
+      font-size: 23px;
+      color: rgb(239, 16, 39); 
+      text-align: right;
+      position: absolute;
+      top: 35%;
+      font-weight: bold;
+      text-decoration: line-through;
+  }
+  .div6{
+      width: 90%;
+      height: 10%;
+      position: absolute;
+      top: 52%;
+      text-align: left;
+      font-size: 25px;
+}
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;    
+}
+.card3{
+    margin-top: 50px;
+    border: 1.5px solid rgb(247, 45, 45);
+    height: 50vh;
+    width:20%;
+    position: absolute;
+    right: 190px;
+    bottom: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px grey; 
+}
+  .div7{
+      position:absolute;
+      top:15px;
+      right: 0;
+      font-size: 30px;
+      width: 85%;
+      text-align: left;
+      height: 15%;
+      color: rgb(239, 16, 39);
+      border-bottom: 1px solid black;
+  }
+  .div8{
+      width: 90%;
+      height: 10%;
+      font-size: 23px;
+      color: rgb(239, 16, 39); 
+      text-align: right;
+      position: absolute;
+      top: 35%;
+      font-weight: bold;
+      text-decoration: line-through;
+  }
+  .div9{
+      width: 90%;
+      height: 10%;
+      position: absolute;
+      top: 52%;
+      text-align: left;
+      font-size: 25px;
+}
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;    
+}
+.left,.right {
+    width: 15px;
+    height: 15px;
+    transition: .5s;
+    float: left;
+    box-shadow: -2px 2px 0 black;
+    }
+
+.left {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 700px;
+    right: 880px;
+}
+   
+.right {
+    transform: rotate(-135deg);
+    position: absolute;
+    top: 700px;
+    right: 600px;
+}
+.left:hover,
+  .right:hover {
+    border-top: 15px solid red;
+    border-right: 15px solid red;
+    cursor: pointer;
+}
+  
+.inpagenumbers{
+    position: absolute;
+    top: 700px;
+    right: 720px;
+    font-size: 20px;
+    color: red;
+  }
